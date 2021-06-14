@@ -114,7 +114,10 @@ let starWarsData = [{
 }];
 
 const returnNames = (arr) => {
-  return arr.reduce((val, currentValue)=> [val, currentValue.name]);
+  let names = arr.reduce((currentState, names)=>{
+    currentState.push(names.name);
+    return names;
+  })
 }
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
