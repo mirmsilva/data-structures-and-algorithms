@@ -54,9 +54,7 @@ Note: You may not use the array's built-in length property.
 ------------------------------------------------------------------------------------------------ */
 
 const countNumberOfElements = (arr) => {
-  return arr.reduce((a,b)=>{
-    return b;
-  },0)
+  // Solution code here...
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -115,24 +113,19 @@ let starWarsData = [{
   gender: 'female'
 }];
 
-const returnNames = (arr) => {
-  let initialState = [];
-  return arr.reduce((currentSate, value) => {
-    initialState.push(value.name);
-    return initialState;
-  }, [])
-};
-
-// Michelle's way of solving option 1
-// const returnNames = (arr) => {
-//   return arr.reduce((answerSoFar, character)=> answerSoFar.push(character.name);
-//   return answerSoFar,[]);
-// };
-
-//Michelle's way of solving option 2
-// const returnNames = (arr) =>{
-//   return arr.reduce((answerSoFar, character)=> answerSoFar.push(character.name) && answerSoFar, [])
-// }
+/ const returnNames = (arr) => {
+  //   let names = arr.reduce((currentState, names)=>{
+  //     currentState.push(names.name);
+  //     return names;
+  //   })
+  // }
+  
+  const returnNames = (arr) => {
+    let initialState = [];
+    let names = arr.reduce((currentSate, value,idx) => {(currentSate, value.name)
+  
+    }, initialState);
+  }
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
 
@@ -142,7 +135,7 @@ Note: You must use reduce for this challenge. You may not use the built-in .reve
 ------------------------------------------------------------------------------------------------ */
 
 const reversedString = (str) => {
-  return str.split("").reverse().join("");
+  
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -195,9 +188,7 @@ const characters = [
 ];
 
 const countNumberOfChildren = (arr) => {
-  return arr.reduce((answerSoFar, character)=>
-  character.childern ? answerSoFar+character.children.length :
-  answerSoFar,0);
+  // Solution code here...
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -344,7 +335,7 @@ describe('Testing challenge 6', () => {
   });
 });
 
-describe('Testing challenge 7', () => {
+xdescribe('Testing challenge 7', () => {
   test('It should return the total number of children', () => {
     expect(countNumberOfChildren(characters)).toStrictEqual(14);
   });
