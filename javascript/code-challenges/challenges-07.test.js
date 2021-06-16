@@ -24,9 +24,16 @@ let starWarsPeople = [
   }
 ];
 
-const sortStarWarsCharacters = (starWarsArr) => starWarsArr.sort(function(a,b) {
-  return Number(a.height) < Number(b.height) ? 1 :-1;
-})
+//
+const sortStarWarsCharacters = (starWarsArr) => {
+  starWarsArr.sort((a,b)=> Number(b.height) - Number(a.height))
+  return starWarsArr;
+}
+
+// The way i solved it
+// const sortStarWarsCharacters = (starWarsArr) => starWarsArr.sort(function(a,b) {
+//   return Number(a.height) < Number(b.height) ? 1 : -1;
+// })
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
@@ -64,7 +71,9 @@ For example, if the input is 'Welcome', the output will be:
 
 const howMuchPencil = (str) => {
   let result = [];
-  // Solution code here...
+  for (let i=0; i<= str.length; i++){
+    result.push(str.slice(i));
+  }
   return result;
 };
 
@@ -77,7 +86,7 @@ For example, wordsToCharList('gregor') returns ['g','r','e','g','o','r'].
 ------------------------------------------------------------------------------------------------ */
 
 const wordsToCharList = (arr) => {
-  arr.length[0];
+  arr.push (str.slice());
 };
 
 
@@ -123,9 +132,10 @@ const gruffaloCrumble = {
 
 
 const listFoods = (recipe) => {
-  let result = [];
-  // Solution code here...
-  return result;
+  return recipe.ingredients.map(ing=>{
+    let noNum = ing.slice(ing.indexOf(' ')+1);
+    return noNum.slice(noNum.indexOf(' ')+1);
+  })
 };
 
 /* ------------------------------------------------------------------------------------------------
