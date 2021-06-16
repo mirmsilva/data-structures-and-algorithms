@@ -130,6 +130,10 @@ const gruffaloCrumble = {
   ]
 };
 
+// Michelle's way using split
+// const listFoods = (recipe) => {
+//   return recipe.ingredients.map(ing =>ing.split(' ').slice(2).join(' '));
+// };
 
 const listFoods = (recipe) => {
   return recipe.ingredients.map(ing=>{
