@@ -36,8 +36,15 @@ Write a function named checkValues that takes in an object and a value and retur
 
 
 ------------------------------------------------------------------------------------------------ */
-
+// //My way
+// const hasChildrenValues = (arr, character) => {
+//   for(let i=0; i<arr.length; i++){
+//     if(arr[i].name.includes(character)){
+//       return (Object.keys(arr[i]).includes("children")? true :false)}
+//   }
+// };
 const checkValues = (obj, value) => {
+  if Object.values(obj).includes(values) ? true: false
 
 };
 
@@ -61,10 +68,22 @@ HR has asked you to change the data to make it easier to print so that it looks 
 ------------------------------------------------------------------------------------------------ */
 
 const updateNumbers = (obj) => {
-  return Object.entries(obj.toString(':'));
+  return Object.keys(obj).map(name => `${name}: ${obj[name]}`);
 };
 
+// //Michelle's way
+// const updateNumbers=(obj) =>{
+// return Object.entries(obj).map(arr=> `${arr[0]}: ${arr[1]}`)
+// };
 
+// //other way to solve this
+// const updateNumbers=(obj) =>{
+// let answer = [];
+// for(let key in obj){
+//   answer.push(`${key}: ${obj[key]}`);
+//   }
+//   return answer;
+// }
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
@@ -116,9 +135,7 @@ const characters = [
 ];
 
 const getHouses = (arr) => {
-  let houses = [];
-  // Solution code here...
-  return houses;
+  return arr.map(x => x.house);
 };
 
 /*------------------------------------------------------------------------------------------------
@@ -132,14 +149,17 @@ For example:
 hasChildrenValues(characters, 'Cersei') will return true
 hasChildrenValues(characters, 'Sansa') will return false
 ------------------------------------------------------------------------------------------------ */
-
+// //My way
+// const hasChildrenValues = (arr, character) => {
+//   for(let i=0; i<arr.length; i++){
+//     if(arr[i].name.includes(character)){
+//       return (Object.keys(arr[i]).includes("children")? true :false)}
+//   }
+// };
+//Michelle's Way
 const hasChildrenValues = (arr, character) => {
-  for(let i=0; i<arr.length; i++){
-    if(arr[i].name.includes(character)){
-      return (Object.keys(arr[i]).includes("children")? true:false)}
-  }
+  return !!(Object.values(arr).find(x=> x.name === character).children);
 };
-
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
 
