@@ -56,16 +56,16 @@ let characters = [
 
 const sortByChildren = (charArray) => {
   return charArray.sort((a,b)=>{
-    if (a.children.length < a.children.length){
+    if (a.children.length < b.children.length){
       return -1;
     }
-    if (a.children.length > a.children.length){
+    if (a.children.length > b.children.length){
       return 1;
     }
     if(a.name<b.name){
       return -1;
     }
-    if(a.name > a.name){
+    if(a.name > b.name){
       return 1;
     }
   })
@@ -121,10 +121,16 @@ Write a function named isCapitalized that takes in a string. This function shoul
 
 Return an array containing all the matches.
 ------------------------------------------------------------------------------------------------ */
-
+//Michelle's Way
 const isCapitalized = (str) => {
-  return str.match(/[A-Z]\w+/g) || [];
-};
+  return str.match(/\b[A-Z]\w+\b/g) || [];
+
+}; 
+
+// //My way:
+// const isCapitalized = (str) => {
+//   return str.match(/[A-Z]\w+/g) || [];
+// };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
@@ -149,7 +155,7 @@ Do not use the vertical bar (pipe) in your pattern.
 ------------------------------------------------------------------------------------------------ */
 
 const matchMonth = (input) => {
-  // Solution code here...
+  return (/^[Oo]ct(ober)?*$/.test(input));
 };
 
 /* ------------------------------------------------------------------------------------------------
