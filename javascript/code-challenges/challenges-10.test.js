@@ -26,9 +26,11 @@ For example:
 return: 23
 ------------------------------------------------------------------------------------------------ */
 const findMax = (matrix) => {
-  matrix.forEach(arr=>{
-  return arr.forEach(d => Math.max(d));
-  })
+ return matrix.map((subArray)=>{
+   return subArray.reduce((previousLargestNumber, currentLargestNumber)=>{
+  return (currentLargestNumber>previousLargestNumber) ? currentLargestNumber : previousLargestNumber;
+   }, 0)
+})
 };
 
 /* ------------------------------------------------------------------------------------------------
