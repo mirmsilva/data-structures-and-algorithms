@@ -44,7 +44,7 @@ Write a function named checkValues that takes in an object and a value and retur
 //   }
 // };
 const checkValues = (obj, value) => {
-  if Object.values(obj).includes(values) ? true: false
+  return Object.values(obj).includes(value) ? true: false
 
 };
 
@@ -67,14 +67,14 @@ HR has asked you to change the data to make it easier to print so that it looks 
 
 ------------------------------------------------------------------------------------------------ */
 
-const updateNumbers = (obj) => {
-  return Object.keys(obj).map(name => `${name}: ${obj[name]}`);
-};
-
-// //Michelle's way
-// const updateNumbers=(obj) =>{
-// return Object.entries(obj).map(arr=> `${arr[0]}: ${arr[1]}`)
+// const updateNumbers = (obj) => {
+//   return Object.keys(obj).map(name => `${name}: ${obj[name]}`);
 // };
+
+//Michelle's way
+const updateNumbers=(obj) =>{
+return Object.entries(obj).map(arr=> `${arr[0]}: ${arr[1]}`)
+};
 
 // //other way to solve this
 // const updateNumbers=(obj) =>{
