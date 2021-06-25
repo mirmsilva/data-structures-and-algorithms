@@ -7,8 +7,9 @@ Write a function named replaceZeros that, given a string, uses Regex to replace 
 ------------------------------------------------------------------------------------------------ */
 
 const replaceZeros = (string) => {
-  // Solution code here...
-}
+  let regex = /0/g;
+  return string.replace(regex, 'zero');
+};
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
@@ -19,7 +20,7 @@ If the PIN is four numerical digits long, return true. Otherwise, return false.
 ------------------------------------------------------------------------------------------------ */
 
 const validatePin = (pin) => {
-  // Solution code here...
+  return /\b\d{4}\b/.test(pin);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -31,7 +32,7 @@ If the word is between 5 and 10 characters long, return true. Otherwise, return 
 ------------------------------------------------------------------------------------------------ */
 
 const validateWord = (word) => {
-  // Solution code here...
+  return /^[A-Za-z]{5,10}$/.test(word);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -43,7 +44,7 @@ If it does, return true. If not, return false.
 ------------------------------------------------------------------------------------------------ */
 
 const hasNumber = (string) => {
-  // Solution code here...
+  return /^[A-Za-z]+[0-9]+/.test(string);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -63,7 +64,7 @@ Note: if you ever need to validate an email using a regex in practice, the Inter
 ------------------------------------------------------------------------------------------------ */
 
 const validateEmail = (email) => {
-  // Solution code here...
+  return /^[A-Za-z0-9]+(\.[A-Za-z0-9]+)?@[a-z]*(\.com|\.net|\.org)$/.test(email);
 };
 
 /* ------------------------------------------------------------------------------------------------
