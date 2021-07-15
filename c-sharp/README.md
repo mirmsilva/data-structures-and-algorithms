@@ -8,10 +8,13 @@
 
 # WhiteBoards
 ## Code Challenge 01  - Reverse Array
-![Lab01](..c-sharp/images/CodeChallenge01.png)
+![Lab01](../c-sharp/images/CodeChallenge01.png)
 
 ## Code Challenge 02 - Insert Shift Array
-![Lab01](..c-sharp/images/CodeChallenge02.png)
+![Lab02](../c-sharp/images/CodeChallenge02.png)
+
+## Code Challenge 03 - Insert Shift Array
+![Lab03](../c-sharp/images/CodeChallenge03.png)
 
 
 # Help From
