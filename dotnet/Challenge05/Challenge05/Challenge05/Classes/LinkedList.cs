@@ -6,23 +6,22 @@ using System.Threading.Tasks;
 
 namespace Challenge05
 {
-  class LinkedList
+  public class LinkedList
   {
     public Node Head { get; set; }
 
     public LinkedList()
     {
-      Insert(5);
-      Includes(5);
-      ToString();
+
     }
-    public string ToString()
+    public string Print()
     {
       Node current = Head;
       string nodeName = "";
       while (current != null)
       {
         nodeName = ($"({current.Value}) =>");
+        Console.Write(nodeName);
         current = current.Next;
 
       }
@@ -41,13 +40,16 @@ namespace Challenge05
     public bool Includes(int num)
     {
       Node current = Head;
+      Console.Write($"Head = {Head.Value}");
       while (current != null)
       {
         if (num == current.Value)
         {
+          Console.WriteLine($"Includes {num}");
           return true;
         }
       }
+      Console.WriteLine($"Does not include {num}");
       return false;
     }
 
