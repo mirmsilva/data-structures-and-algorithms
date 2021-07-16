@@ -1,0 +1,16 @@
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge05\Challenge05\Challenge05\bin\Debug\net5.0\Challenge05.exe
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge05\Challenge05\Challenge05\bin\Debug\net5.0\Challenge05.deps.json
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge05\Challenge05\Challenge05\bin\Debug\net5.0\Challenge05.runtimeconfig.json
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge05\Challenge05\Challenge05\bin\Debug\net5.0\Challenge05.runtimeconfig.dev.json
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge05\Challenge05\Challenge05\bin\Debug\net5.0\Challenge05.dll
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge05\Challenge05\Challenge05\bin\Debug\net5.0\ref\Challenge05.dll
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge05\Challenge05\Challenge05\bin\Debug\net5.0\Challenge05.pdb
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge05\Challenge05\Challenge05\obj\Debug\net5.0\Challenge05.csproj.AssemblyReference.cache
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge05\Challenge05\Challenge05\obj\Debug\net5.0\Challenge05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge05\Challenge05\Challenge05\obj\Debug\net5.0\Challenge05.AssemblyInfoInputs.cache
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge05\Challenge05\Challenge05\obj\Debug\net5.0\Challenge05.AssemblyInfo.cs
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge05\Challenge05\Challenge05\obj\Debug\net5.0\Challenge05.csproj.CoreCompileInputs.cache
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge05\Challenge05\Challenge05\obj\Debug\net5.0\Challenge05.dll
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge05\Challenge05\Challenge05\obj\Debug\net5.0\ref\Challenge05.dll
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge05\Challenge05\Challenge05\obj\Debug\net5.0\Challenge05.pdb
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge05\Challenge05\Challenge05\obj\Debug\net5.0\Challenge05.genruntimeconfig.cache
