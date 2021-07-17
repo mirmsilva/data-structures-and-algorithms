@@ -2,18 +2,14 @@ using System;
 
 namespace Challenge05
 {
-    class Program
+  class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-     
-        }
-
-    LinkedList OurList = new LinkedList { };
-    Node OurNode = new Node(5);
-    public string MakeLinkList()
-    {
-      return OurNode.ToString();
+      LinkedList OurList = new LinkedList { };
+      OurList.Insert(2);
+      OurList.Insert(7);
+      OurList.Print();
     }
-    }
+  }
 }
