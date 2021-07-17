@@ -4,7 +4,7 @@ See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-co
 
 ## Repository Quick Tour and Usage
 
-### 301 Code Challenges
+## 301 Code Challenges
 
 Under the `javascript` folder, at the top level, is a sub-folder called `code-challenges`
 
@@ -18,6 +18,14 @@ To run your tests
 - run `npm test` to run all of the tests
 - run `npm test ##` to only run tests for challenge ## (i.e. 01)
 
-### 401 Data Structures, Code Challenges
+## 401 Data Structures, Code Challenges
 
-- Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+Code Challenge 01:
+
+Code Challenge 02:
+
+Code Challenge 03:
+
+Code Challenge 04:
+
+Code Challenge 05: [Linked-List](../dotnet/Challenge05/README.md)
