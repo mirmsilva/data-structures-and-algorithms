@@ -1,8 +1,10 @@
-# Insert to Middle of an Array
-<!-- Description of the challenge -->
+# Challenge 06
 
-## Whiteboard Process
-<!-- Embedded whiteboard image -->
+## Problem Domain
+Given a linked list create 3 methods that will allow you to append to the end of the list, insert before and insert after
 
-## Approach & Efficiency
-<!-- What approach did you take? Discuss Why. What is the Big O space/time for this approach? -->
+## Whiteboard
+[Array-Insert-Shift](../dotnet/WhiteBoards/Challenge06.JPG)
+
+## Created with:
+Joel Connell
