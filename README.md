@@ -32,6 +32,8 @@ Code Challenge 05: [Linked-List](./dotnet/Challenge05/README.md)
 
 Code Challenge 06: [Linked-List-Insertions](./dotnet/Challenge06/README.md)
 
+Code Challenge 07: [Linked-List-kth](./dotnet/Challenge06/README.md)
+
 
 ## Made with help from:
 - Joel Connell

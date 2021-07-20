@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Challenge06
+namespace Challenge07
 {
   public class LinkedList
   {
@@ -89,35 +89,26 @@ namespace Challenge06
         current = current.Next;
       }
     }
-    //recursive is nicer to look at but less efficient
-    public static int IterateListRecursively (Node <int> node, int largest)
+    public int returnNodeValue(int k)
     {
-      if (node.Next == null)
-      {
-        return largest;
-      }
-      if (node.Next > largest)
-      {
-        largest = node.Value;
-      }
-      return IterateListRecursively(node.Next, largest)
-    }
-
-    // iterate a list.
-    public static int IterateLinkedListIteratively(LinkedList<int> list)
-    {
-      ints largest = list.Head.Value;
-      Node<int> current = list.Head;
+      Node current = Head;
+      int count = 0;
       while (current != null)
       {
-        if (current.Value > largest)
-        {
-          largest = current.Value;
-        }
+        current = current.Next;
+          count++;
+      }
+      count = count - k;
+      Console.WriteLine(count);
+
+      current = Head;
+      Console.WriteLine(current.Value);
+      for (int i = 0; i < count-1; i++)
+      {
         current = current.Next;
       }
-      return largest;
-
+      Console.WriteLine(current.Value);
+      return current.Value;
     }
   }
 }

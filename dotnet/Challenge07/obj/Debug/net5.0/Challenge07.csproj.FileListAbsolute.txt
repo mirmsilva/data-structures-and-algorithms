@@ -1,0 +1,16 @@
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge07\obj\Debug\net5.0\Challenge07.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge07\obj\Debug\net5.0\Challenge07.AssemblyInfoInputs.cache
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge07\obj\Debug\net5.0\Challenge07.AssemblyInfo.cs
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge07\obj\Debug\net5.0\Challenge07.csproj.CoreCompileInputs.cache
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge07\bin\Debug\net5.0\Challenge07.exe
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge07\bin\Debug\net5.0\Challenge07.deps.json
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge07\bin\Debug\net5.0\Challenge07.runtimeconfig.json
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge07\bin\Debug\net5.0\Challenge07.runtimeconfig.dev.json
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge07\bin\Debug\net5.0\Challenge07.dll
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge07\bin\Debug\net5.0\ref\Challenge07.dll
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge07\bin\Debug\net5.0\Challenge07.pdb
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge07\obj\Debug\net5.0\Challenge07.dll
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge07\obj\Debug\net5.0\ref\Challenge07.dll
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge07\obj\Debug\net5.0\Challenge07.pdb
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge07\obj\Debug\net5.0\Challenge07.genruntimeconfig.cache
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\Challenge07\obj\Debug\net5.0\Challenge07.csproj.AssemblyReference.cache
