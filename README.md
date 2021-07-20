@@ -30,4 +30,4 @@ Code Challenge 04:
 
 Code Challenge 05: [Linked-List](../dotnet/Challenge05/README.md)
 
-Code Challenge 06: [Array-Insert-Shift](../dotnet/Challenge06/README.md)
+Code Challenge 06: [Linked-List-Insertions](../dotnet/Challenge06/README.md)
