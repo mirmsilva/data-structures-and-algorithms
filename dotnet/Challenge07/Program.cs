@@ -14,7 +14,7 @@ namespace Challenge07
         OurList.Insert(3);
         OurList.Append(4);
         OurList.Print();
-        OurList.returnNodeValue(0);
+        OurList.returnNodeValue(7);
         }
     }
 }

@@ -92,23 +92,32 @@ namespace Challenge07
     public int returnNodeValue(int k)
     {
       Node current = Head;
-      int count = 0;
+      int initialCount = 0;
       while (current != null)
       {
         current = current.Next;
-          count++;
+        initialCount++;
       }
-      count = count - k;
+      int count = initialCount - k;
       Console.WriteLine(count);
 
       current = Head;
       Console.WriteLine(current.Value);
-      for (int i = 0; i < count-1; i++)
+      if (k <= initialCount)
       {
-        current = current.Next;
+        for (int i = 0; i < count - 1; i++)
+
+        {
+          current = current.Next;
+        }
+        Console.WriteLine(current.Value);
+        return current.Value;
       }
-      Console.WriteLine(current.Value);
-      return current.Value;
+      else
+      {
+        Console.WriteLine("that number is too big");
+        return 0;
+      }
     }
   }
 }
