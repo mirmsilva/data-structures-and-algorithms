@@ -19,4 +19,5 @@ Create a linked list then create unit tests to make sure it's working as intende
 - added methods & properties to classes
 - created tests
 
-## API
+## Made With Help From:
+- Joel Connell
