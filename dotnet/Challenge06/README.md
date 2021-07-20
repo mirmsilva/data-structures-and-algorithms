@@ -1,8 +1,9 @@
-# Insert to Middle of an Array
-<!-- Description of the challenge -->
+# Code Challenge 06
 
-## Whiteboard Process
-<!-- Embedded whiteboard image -->
+## Linked List Insertions
 
-## Approach & Efficiency
-<!-- What approach did you take? Discuss Why. What is the Big O space/time for this approach? -->
+## Problem Domain
+
+Given a link list. Create methods to append to end of Link List, Insert before the first Node & Insert after the first Node
+
+## WhiteBoard
