@@ -6,5 +6,6 @@ Given an int as a parameter return the node value that is int places away from t
 ## Whiteboard
 ![Array-Insert-Shift](../WhiteBoards/Challenge07.JPG)
 
+
 ## Created with:
 Joel Connell

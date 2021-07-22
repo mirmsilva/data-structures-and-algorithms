@@ -118,6 +118,29 @@ namespace Challenge07
         Console.WriteLine("that number is too big");
         return 0;
       }
+
+    }
+    public LinkedList ZippedLinkedList (LinkedList List1, LinkedList List2)
+    {
+     //make a new zipped list
+     LinkedList ZippedList = new LinkedList();
+     //create and set node one to the list1 head value
+     Node one = List1.Head;
+     //create and set node two to the list2 head value
+     Node two = List2.Head;
+
+      while (one != null && two != null)
+      {
+      //Call the Append method created up above
+       ZippedList.Append(one.Value);
+       ZippedList.Append(two.Value);
+
+       //This will cause it to iterate
+       one = one.Next;
+       two = two.Next;
+      }
+      Head = ZippedList.Head;
+      return ZippedList;
     }
   }
 }

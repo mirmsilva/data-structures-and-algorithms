@@ -103,7 +103,7 @@ namespace Challenge06
       return IterateListRecursively(node.Next, largest)
     }
 
-    // iterate a list.
+    // iterate a list
     public static int IterateLinkedListIteratively(LinkedList<int> list)
     {
       ints largest = list.Head.Value;

@@ -32,7 +32,9 @@ Code Challenge 05: [Linked-List](./dotnet/Challenge05/README.md)
 
 Code Challenge 06: [Linked-List-Insertions](./dotnet/Challenge06/README.md)
 
-Code Challenge 07: [Linked-List-kth](./dotnet/Challenge06/README.md)
+Code Challenge 07: [Linked-List-kth](./dotnet/Challenge07/README.md)
+
+Code Challenge 08: [Zipped-Link-List](./dotnet/Challenge08/README.md)
 
 
 ## Made with help from:
