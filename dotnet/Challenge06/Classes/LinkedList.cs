@@ -89,35 +89,5 @@ namespace Challenge06
         current = current.Next;
       }
     }
-    //recursive is nicer to look at but less efficient
-    public static int IterateListRecursively (Node <int> node, int largest)
-    {
-      if (node.Next == null)
-      {
-        return largest;
-      }
-      if (node.Next > largest)
-      {
-        largest = node.Value;
-      }
-      return IterateListRecursively(node.Next, largest)
-    }
-
-    // iterate a list
-    public static int IterateLinkedListIteratively(LinkedList<int> list)
-    {
-      ints largest = list.Head.Value;
-      Node<int> current = list.Head;
-      while (current != null)
-      {
-        if (current.Value > largest)
-        {
-          largest = current.Value;
-        }
-        current = current.Next;
-      }
-      return largest;
-
-    }
   }
 }

@@ -11,8 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeChallenges", "CodeChall
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeChallengesTests", "CodeChallengesTests\CodeChallengesTests.csproj", "{2377975F-19D9-44AF-BF82-087634FBB18B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge06", "..\Challenge06\Challenge06.csproj", "{B6A6E1D1-27E7-4413-A3B7-AE15F1101725}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,10 +33,6 @@ Global
 		{2377975F-19D9-44AF-BF82-087634FBB18B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2377975F-19D9-44AF-BF82-087634FBB18B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2377975F-19D9-44AF-BF82-087634FBB18B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B6A6E1D1-27E7-4413-A3B7-AE15F1101725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B6A6E1D1-27E7-4413-A3B7-AE15F1101725}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B6A6E1D1-27E7-4413-A3B7-AE15F1101725}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B6A6E1D1-27E7-4413-A3B7-AE15F1101725}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

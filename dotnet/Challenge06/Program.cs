@@ -12,8 +12,8 @@ namespace Challenge06
       OurList.Insert(9);
       OurList.Insert(3);
       OurList.Append(4);
-      OurList.InsertBefore(9, 1);
-      OurList.InsertAfter(7, 5);
+      //OurList.InsertBefore(9, 1);
+      //OurList.InsertAfter(7, 5);
       OurList.Print();
         }
     }
