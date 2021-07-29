@@ -38,6 +38,8 @@ Code Challenge 08: [Zipped-Link-List](./dotnet/Challenge08/README.md)
 
 Code Challenge 11: [Pseudo-Code](./dotnet/DataStructures/README.md)
 
+Code Challenge 13: [Balanced-Brackets](./dotnet/DataStructures/README.md)
+
 
 ## Made with help from:
 - Joel Connell
