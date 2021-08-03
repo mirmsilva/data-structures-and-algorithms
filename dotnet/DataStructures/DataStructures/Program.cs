@@ -7,6 +7,8 @@ namespace DataStructures
     static void Main(string[] args)
     {
       Console.WriteLine("Hello World!");
+
+      //LINKED LISTS
       //LinkedList OurList = new LinkedList { };
       //OurList.Insert(2);
       //OurList.Append(7);
@@ -16,6 +18,9 @@ namespace DataStructures
       //OurList.InsertBefore(9, 1);
       //OurList.InsertAfter(7, 5);
       //OurList.Print();
+
+
+      //BINARY TREES
     }
   }
 }
