@@ -17,7 +17,15 @@
 #Code Challenge 16
 
 ## Whiteboard
-![Tree-Max](../WhiteBoards/Challenge16.JPG
+![Tree-Max](../WhiteBoards/Challenge16.png
+
+## With Help From:
+- Qaalid Hashi (Q)
+
+#Code Challenge 17
+
+## Whiteboard
+![Tree-Breadth-Tree](../WhiteBoards/Challenge17.JPG
 
 ## With Help From:
 - Qaalid Hashi (Q)

@@ -42,6 +42,8 @@ Code Challenge 13: [Balanced-Brackets](./dotnet/DataStructures/README.md)
 
 Code Challenge 16: [Tree-Max](./dotnet/DataStructures/README.md)
 
+Code Challenge 17: [Tree-Breadth-First](./dotnet/DataStructures/README.md)
+
 
 ## Made with help from:
 - Joel Connell
