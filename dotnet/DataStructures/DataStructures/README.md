@@ -29,3 +29,12 @@
 
 ## With Help From:
 - Qaalid Hashi (Q)
+
+#Code Challenge 18
+
+## Whiteboard
+![Tree-Fizz-Buzz](../WhiteBoards/Challenge18.JPG
+
+## With Help From:
+- Qaalid Hashi (Q)
+

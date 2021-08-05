@@ -44,7 +44,11 @@ Code Challenge 16: [Tree-Max](./dotnet/DataStructures/README.md)
 
 Code Challenge 17: [Tree-Breadth-First](./dotnet/DataStructures/README.md)
 
+Code Challenge 18: [Tree-Fizz-Buzz](./dotnet/DataStructures/README.md)
+
 
 ## Made with help from:
 - Joel Connell
+- Q
+- Jona Brown
 
