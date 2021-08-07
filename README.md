@@ -20,13 +20,13 @@ To run your tests
 
 ## 401 Data Structures, Code Challenges
 
-Code Challenge 01:
+Code Challenge 01:[Tree-Breadth-First](./dotnet/DataStructures/README.md)
 
-Code Challenge 02:
+Code Challenge 02:[Tree-Breadth-First](./dotnet/DataStructures/README.md)
 
-Code Challenge 03:
+Code Challenge 03:[Binary-Search](./dotnet/DataStructures/README.md)
 
-Code Challenge 04:
+Code Challenge 04:[Tree-Breadth-First](./dotnet/DataStructures/README.md)
 
 Code Challenge 05: [Linked-List](./dotnet/Challenge05/README.md)
 
