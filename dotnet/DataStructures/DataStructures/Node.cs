@@ -16,12 +16,15 @@ namespace DataStructures
 
     public Node<T> Right { get; set; }
 
+    public List<Node<T>> Children { get; set; }
+
     //Can this go here? unclear
     //public Node Head { get; set; }
 
     public Node(T value)
     {
       Value = value;
+      Children = new List<Node<T>>();
     }
   }
 }
