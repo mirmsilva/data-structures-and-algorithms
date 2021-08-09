@@ -82,6 +82,24 @@
 ## With Help From:
 - Joel Connell
 
+# Code Challenge 15
+## Binary Trees
+- Created Node Class
+  - With properties for the values in the node, the left child node & the right child node
+- Created Binary Tree Class
+  - With Traversal Methods:
+    - PreOder()
+    - InOrder()
+    - PostOrder()
+- Created Binary Search Tree Class
+  - With Methods:
+    - Add() : Adds a new node in the corrent location
+    - Contains() : Returns true or false depending on whether value is in tree or not
+
+
+## With Help From:
+Joel Connell
+
 # Code Challenge 16
 
 ## Whiteboard

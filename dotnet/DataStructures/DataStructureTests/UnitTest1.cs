@@ -8,7 +8,7 @@ namespace DataStructureTests
 {
   public class UnitTest1
   {
-    //CODE CHALLENGE 18: KARY TREE TEST #1
+    //------------CODE CHALLENGE 18-------------
     [Fact]
     public void Test1()
     {
@@ -36,6 +36,8 @@ namespace DataStructureTests
 
       Assert.False(one.stackOne.IsEmpty());
     }
+
+    //------------CODE CHALLENGE 15-------------
     //EMPTY TREE TEST
     [Fact]
     public void CanMakeEmptyTree()

@@ -19,7 +19,7 @@ namespace DataStructures
     public List<Node<T>> Children { get; set; }
 
     //Can this go here? unclear
-    //public Node Head { get; set; }
+    public Node<T> Head { get; set; }
 
     public Node(T value)
     {

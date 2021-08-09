@@ -72,44 +72,7 @@ namespace DataStructures
       return false;
     }
 
-    //IN-ORDER TRAVERSAL
-    public static List<int> InOrderTraversal(Node<int> node, List<int> values)
-    {
-
-      if (node.Left != null) { InOrderTraversal(node.Left, values); }
-
-      values.Add(node.Value);
-
-      if (node.Right != null) { InOrderTraversal(node.Right, values); }
-
-      return values;
-    }
-
-    //PRE-ORDER TRAVERSAL
-    public static List<int> PreOrderTraversal(Node<int> node, List<int> values)
-    {
-      values.Add(node.Value);
-
-      if (node.Left != null) { PreOrderTraversal(node.Left, values); }
-
-      if (node.Right != null) { PreOrderTraversal(node.Right, values); }
-
-      return values;
-    }
-
-    //POST ORDER TRAVERSAL
-    public static List<int> PostOrderTraversal(Node<int> node, List<int> values)
-    {
-
-      if (node.Left != null) { PostOrderTraversal(node.Left, values); }
-
-      if (node.Right != null) { PostOrderTraversal(node.Right, values); }
-
-      values.Add(node.Value);
-
-      return values;
-    }
-
+ 
     //CHALLENGE 17: BREADTH FIRST TRAVERSAL
     //LEVEL ORDER TRAVERSAL
     public static List<int> LevelOrderTraversal(BinarySearchTree<int> tree)
