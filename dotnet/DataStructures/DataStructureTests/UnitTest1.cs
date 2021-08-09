@@ -8,18 +8,21 @@ namespace DataStructureTests
 {
   public class UnitTest1
   {
+    //CODE CHALLENGE 18: KARY TREE TEST #1
     [Fact]
-    public void TestDequeue()
+    public void Test1()
     {
-      PseudoQueue<int> one = new PseudoQueue<int>();
-      one.Enqueue(4);
-      one.Enqueue(5);
-      one.Enqueue(1);
-      one.Enqueue(2);
+      KaryTree<int> k = new KaryTree<int>(10);
 
-      Assert.Equal(4, one.Dequeue());
+      k.Root.Value = 10;
+      k.Root.Children.Add(new Node<int>(10));
+      k.Root.Children.Add(new Node<int>(3));
+      k.Root.Children.Add(new Node<int>(15));
+
+      KaryTree<string> res = k.FizzBuzz(k);
+
+      Assert.Equal("buzz", res.Root.Value);
     }
-
     [Fact]
     public void TestPeek()
     {
@@ -52,22 +55,6 @@ namespace DataStructureTests
       tree.Root.Right = new Node<int>(10);
       Assert.Equal(6, tree.Root.Left.Value);
       Assert.Equal(10, tree.Root.Right.Value);
-    }
-
-    //KARY TREE TEST #1
-    [Fact]
-    public void Test1()
-    {
-      KaryTree<int> k = new KaryTree<int>(10);
-
-      k.Root.Value = 10;
-      k.Root.Children.Add(new Node<int>(10));
-      k.Root.Children.Add(new Node<int>(3));
-      k.Root.Children.Add(new Node<int>(15));
-
-      KaryTree<string> res = k.FizzBuzz(k);
-
-      Assert.Equal("buzz", res.Root.Value);
     }
   }
 }

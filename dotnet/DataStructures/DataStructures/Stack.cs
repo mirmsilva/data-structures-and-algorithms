@@ -44,39 +44,39 @@ namespace DataStructures
       return false;
     }
 
-    static Boolean isMatchingPair(char character1, char character2)
+    static Boolean DoMatch(string character1, string character2)
     {
-        if (character1 == '(' && character2 == ')')
+        if (character1 == "(" && character2 == ")")
             return true;
-        else if (character1 == '{' && character2 == '}')
+        else if (character1 == "{" && character2 == "}")
             return true;
-        else if (character1 == '[' && character2 == ']')
+        else if (character1 == "{" && character2 == "]")
             return true;
         else
             return false;
     }
  
-    static Boolean areBracketsBalanced(char[] exp)
+    static Boolean areBracketsBalanced(string [] exp)
     {
-        Stack<char> st = new Stack<char>();
+        Stack<string> st = new Stack<string>();
 
         for (int i = 0; i < exp.Length; i++)
         {
-            if (exp[i] == '{' || exp[i] == '('
-                || exp[i] == '[')
+            if (exp[i] == "{" || exp[i] == "("
+                || exp[i] == "[")
                 st.Push(exp[i]);
-            if (exp[i] == '}' || exp[i] == ')'
-                || exp[i] == ']') {
-                if (st.Count == 0)
+            if (exp[i] == "}" || exp[i] == ")"
+                || exp[i] == "") {
+                if (st.Equals(0))
                 {
                     return false;
                 }
-                else if (!isMatchingPair(st.Pop(),exp[i])) {
+                else if (!DoMatch(st.Pop(),exp[i])) {
                     return false;
                 }
             }
         }
-        if (st.Count == 0)
+        if (st.Equals(0))
             return true;
         else
         {
