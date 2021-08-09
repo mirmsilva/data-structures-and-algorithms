@@ -56,5 +56,32 @@ namespace DataStructureTests
       Assert.Equal(6, tree.Root.Left.Value);
       Assert.Equal(10, tree.Root.Right.Value);
     }
+    //------------CODE CHALLENGE 10-------------
+    //STACKS
+    [Fact]
+    public void StackIsOrIsNotEmptyAndCanPush()
+    {
+      DataStructures.Stack<int> stack = new DataStructures.Stack<int>();
+      Assert.True(stack.IsEmpty());
+      stack.Push(1);
+      Assert.False(stack.IsEmpty());
+    }
+
+    [Fact]
+    public void StackCanPop()
+    {
+      DataStructures.Stack<int>stack = new DataStructures.Stack<int>();
+      stack.Push(5);
+      stack.Push(10);
+      Assert.Equal(10, stack.Pop());
+    }
+
+    //QUEUE
+    [Fact]
+    public void CannotPeekOrDequeueEmptyQueue()
+    {
+      DataStructures.Queue<int> q = new DataStructures.Queue<int>();
+      Assert.Throws<NullReferenceException>(() => q.Peek());
+    }
   }
 }

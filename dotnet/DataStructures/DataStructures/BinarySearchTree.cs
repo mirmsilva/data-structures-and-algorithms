@@ -72,7 +72,7 @@ namespace DataStructures
       return false;
     }
 
-    //IN ORDER TRAVERSAL
+    //IN-ORDER TRAVERSAL
     public static List<int> InOrderTraversal(Node<int> node, List<int> values)
     {
 
@@ -110,6 +110,7 @@ namespace DataStructures
       return values;
     }
 
+    //CHALLENGE 17: BREADTH FIRST TRAVERSAL
     //LEVEL ORDER TRAVERSAL
     public static List<int> LevelOrderTraversal(BinarySearchTree<int> tree)
     {

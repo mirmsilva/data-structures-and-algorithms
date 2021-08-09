@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataStructures
 {
-  public class Stack <T>
+  public class Stack<T>
   {
     public Node<T> Top { get; set; }
 
@@ -43,46 +43,5 @@ namespace DataStructures
       }
       return false;
     }
-
-    static Boolean DoMatch(string character1, string character2)
-    {
-        if (character1 == "(" && character2 == ")")
-            return true;
-        else if (character1 == "{" && character2 == "}")
-            return true;
-        else if (character1 == "{" && character2 == "]")
-            return true;
-        else
-            return false;
-    }
- 
-    static Boolean areBracketsBalanced(string [] exp)
-    {
-        Stack<string> st = new Stack<string>();
-
-        for (int i = 0; i < exp.Length; i++)
-        {
-            if (exp[i] == "{" || exp[i] == "("
-                || exp[i] == "[")
-                st.Push(exp[i]);
-            if (exp[i] == "}" || exp[i] == ")"
-                || exp[i] == "") {
-                if (st.Equals(0))
-                {
-                    return false;
-                }
-                else if (!DoMatch(st.Pop(),exp[i])) {
-                    return false;
-                }
-            }
-        }
-        if (st.Equals(0))
-            return true;
-        else
-        {
-            return false;
-        }
-    }
-  
   }
 }
