@@ -20,33 +20,33 @@ To run your tests
 
 ## 401 Data Structures, Code Challenges
 
-Code Challenge 01:[Tree-Breadth-First](./dotnet/DataStructures/README.md)
+Code Challenge 01:[Tree-Breadth-First](./dotnet/README.md)
 
-Code Challenge 02:[Tree-Breadth-First](./dotnet/DataStructures/README.md)
+Code Challenge 02:[Tree-Breadth-First](./dotnet/README.md)
 
-Code Challenge 03:[Binary-Search](./dotnet/DataStructures/README.md)
+Code Challenge 03:[Binary-Search](./dotnet/README.md)
 
-Code Challenge 04:[Tree-Breadth-First](./dotnet/DataStructures/README.md)
+Code Challenge 04:[Tree-Breadth-First](./dotnet/README.md)
 
-Code Challenge 05: [Linked-List](./dotnet/Challenge05/README.md)
+Code Challenge 05: [Linked-List](./dotnet/README.md)
 
-Code Challenge 06: [Linked-List-Insertions](./dotnet/Challenge06/README.md)
+Code Challenge 06: [Linked-List-Insertions](./dotnet/README.md)
 
-Code Challenge 07: [Linked-List-kth](./dotnet/Challenge07/README.md)
+Code Challenge 07: [Linked-List-kth](./dotnet/README.md)
 
-Code Challenge 08: [Zipped-Link-List](./dotnet/Challenge08/README.md)
+Code Challenge 08: [Zipped-Link-List](./dotnet/README.md)
 
-Code Challenge 10: [Stack-Queue](./dotnet/DataStructures/README.md)
+Code Challenge 10: [Stack-Queue](./dotnet/README.md)
 
-Code Challenge 11: [Pseudo-Code](./dotnet/DataStructures/README.md)
+Code Challenge 11: [Pseudo-Code](./dotnet/README.md)
 
-Code Challenge 13: [Balanced-Brackets](./dotnet/DataStructures/README.md)
+Code Challenge 13: [Balanced-Brackets](./dotnet/README.md)
 
-Code Challenge 16: [Tree-Max](./dotnet/DataStructures/README.md)
+Code Challenge 16: [Tree-Max](./dotnet/README.md)
 
-Code Challenge 17: [Tree-Breadth-First](./dotnet/DataStructures/README.md)
+Code Challenge 17: [Tree-Breadth-First](./dotnet/README.md)
 
-Code Challenge 18: [Tree-Fizz-Buzz](./dotnet/DataStructures/README.md)
+Code Challenge 18: [Tree-Fizz-Buzz](./dotnet/README.md)
 
 
 ## Made with help from:
