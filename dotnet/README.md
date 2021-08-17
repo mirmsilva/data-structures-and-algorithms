@@ -124,3 +124,13 @@ Joel Connell
 ## With Help From:
 - Jona Brown
 
+# Code Challenge 26
+Given an array use sort to traverse the array as it slowly sorts the array out the array sequence
+
+## Whiteboard
+![Insertion-Sort](./WhiteBoards/Challenge26.JPG)
+
+## With Help From:
+- Joel
+- Q
+
