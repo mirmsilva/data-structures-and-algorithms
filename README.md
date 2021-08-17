@@ -48,6 +48,8 @@ Code Challenge 17: [Tree-Breadth-First](./dotnet/README.md)
 
 Code Challenge 18: [Tree-Fizz-Buzz](./dotnet/README.md)
 
+Code Challenge 26: [Insertion-Sort](./dotnet/README.md)
+
 
 ## Made with help from:
 - Joel Connell
