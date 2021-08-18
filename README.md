@@ -50,6 +50,8 @@ Code Challenge 18: [Tree-Fizz-Buzz](./dotnet/README.md)
 
 Code Challenge 26: [Insertion-Sort](./dotnet/README.md)
 
+Code Challenge 27: [Merge-Sort](./dotnet/README.md)
+
 
 ## Made with help from:
 - Joel Connell

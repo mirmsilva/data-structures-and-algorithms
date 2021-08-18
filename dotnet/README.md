@@ -134,3 +134,13 @@ Given an array use sort to traverse the array as it slowly sorts the array out t
 - Joel
 - Q
 
+# Code Challenge 27
+Given an array use create a sort method that splits an array until there are only single arrays with one element. Then calls a merge method that combines and sorts the arrays until you have one sorted array
+
+## Whiteboard
+![Merge-Sort](./WhiteBoards/Challenge27.JPG)
+
+## With Help From:
+- Ben
+- Q
+

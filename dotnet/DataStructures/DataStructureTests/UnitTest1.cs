@@ -8,6 +8,31 @@ namespace DataStructureTests
 {
   public class UnitTest1
   {
+    //------------CODE CHALLENGE 27-------------
+    [Fact]
+    public void SingleValue()
+    {
+      int[] arr = { 1 };
+
+      Assert.Equal(arr, Mergesort(arr));
+    }
+
+    [Fact]
+    public void PropReturnTest()
+    {
+      int[] arr = { 4, 3, 2, 1 };
+      int[] bar = { 1, 2, 3, 4 };
+
+      Assert.Equal(bar, Mergesort(arr));
+    }
+    [Fact]
+    public void ReturnSameArrTest()
+    {
+      int[] arr = { 4, 3, 2, 1 };
+      int[] bar = { 4, 3, 2, 1 };
+      Assert.Equal(bar, Mergesort(arr));
+    }
+
     //------------CODE CHALLENGE 26-------------
     //TEST 1
     [Fact]
