@@ -52,6 +52,7 @@ Code Challenge 26: [Insertion-Sort](./dotnet/README.md)
 
 Code Challenge 27: [Merge-Sort](./dotnet/README.md)
 
+Code Challenge 30: [Hash-Table](./dotnet/README.md)
 
 ## Made with help from:
 - Joel Connell

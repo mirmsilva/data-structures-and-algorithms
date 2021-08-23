@@ -144,3 +144,12 @@ Given an array use create a sort method that splits an array until there are onl
 - Ben
 - Q
 
+# Code Challenge 30
+Hash Map data structure along with methods. Also added a private HashKey() that scrambles the key and returns a value
+
+Added the methods:
+- Get()
+- Set()
+- Contains()
+- Print()
+
