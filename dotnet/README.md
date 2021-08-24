@@ -153,3 +153,8 @@ Added the methods:
 - Contains()
 - Print()
 
+# Code Challenge 31
+Given an array use create a sort method that splits an array until there are only single arrays with one element. Then calls a merge method that combines and sorts the arrays until you have one sorted array
+
+## Whiteboard
+![Repeated-Word](./WhiteBoards/Challenge31.JPG)

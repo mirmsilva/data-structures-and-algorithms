@@ -54,8 +54,10 @@ Code Challenge 27: [Merge-Sort](./dotnet/README.md)
 
 Code Challenge 30: [Hash-Table](./dotnet/README.md)
 
+Code Challenge 31: [Repeated-Word](./dotnet/README.md)
+
 ## Made with help from:
 - Joel Connell
 - Q
 - Jona Brown
-
+- Steven Boston
