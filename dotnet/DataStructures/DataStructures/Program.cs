@@ -7,15 +7,41 @@ namespace DataStructures
     static void Main(string[] args)
     {
       Console.WriteLine("Hello World!");
+        // StackIterative();
+        // StackRecursive();
+        // QueueIterative();
+        // QueueRecursive();
+        HashTableFun();
+    }
+
+    static void HashTableFun()
+    {
+        HashMap people = new HashMap(48);
+        people.Set("John", "Husband");
+        people.Set("Cathy", "Boss");
+        people.Set("Allie", "Volleyballer");
+        people.Set("Zach", "College Grad");
+        people.Set("Rosie", "Dog");
+        people.Set("Char", "Sister-In-Law");
+        people.Set("Joe", "Brother");
+        people.Set("Danny", "Sister");
+
+        people.Print();
+
+        Console.WriteLine($"Has Zach? {people.Contains("Zach")}");
+        Console.WriteLine($"Has Fred? {people.Contains("Fred")}");
+        Console.WriteLine($"Char? {people.Get("Char")}");
+
+    }
 
       //CHALLENGE 26
-      int[] arr = { 2, 6, 8, 7, 1 };
-      int[] sorted = InsertionSort.InsertionSortArray(arr);
-      for (int i = 0; i < arr.Length; i++)
-      {
+      //int[] arr = { 2, 6, 8, 7, 1 };
+      //int[] sorted = InsertionSort.InsertionSortArray(arr);
+      //for (int i = 0; i < arr.Length; i++)
+      //{
 
-        Console.WriteLine(sorted[i]);
-      }
+      //  Console.WriteLine(sorted[i]);
+      //}
 
       ////CHALLENGE 18: K-ARY TREE
       //KaryTree<int> IntTree = new KaryTree<int>(10);
@@ -45,7 +71,7 @@ namespace DataStructures
 
 
       //BINARY TREES
-    }   
-  }
+  }   
 }
+
 

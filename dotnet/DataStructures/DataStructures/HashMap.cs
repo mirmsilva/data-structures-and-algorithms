@@ -34,7 +34,6 @@ namespace DataStructures
     //This method calls the Hash method and uses it to assign key/value pairs
     public void Set(string key, string value)
     {
-      
       int hashKey = Hash(key);
 
       if( Map[hashKey] == null )
@@ -50,7 +49,6 @@ namespace DataStructures
     // Calls the Hash() and uses it to check if values are in the map
     public bool Contains(string key)
     {
-
       int hashKey = Hash(key);
 
       if(Map[hashKey !] != null) 
@@ -63,7 +61,6 @@ namespace DataStructures
           current = current.Next;
 	      }
       }
-
       return false;
     }
 

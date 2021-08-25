@@ -144,6 +144,12 @@ Given an array use create a sort method that splits an array until there are onl
 - Ben
 - Q
 
+# Code Challenge 29
+Write a function that takes in two hashmaps in two hashmaps and joins them into a list
+
+## Whiteboard
+![Left-Join](./WhiteBoards/Challenge29.JPG)
+
 # Code Challenge 30
 Hash Map data structure along with methods. Also added a private HashKey() that scrambles the key and returns a value
 
@@ -158,3 +164,9 @@ Given an array use create a sort method that splits an array until there are onl
 
 ## Whiteboard
 ![Repeated-Word](./WhiteBoards/Challenge31.JPG)
+
+# Code Challenge 33
+Write a function that takes in two hashmaps in two hashmaps and joins them into a list
+
+## Whiteboard
+![Left-Join](./WhiteBoards/Challenge33.JPG)

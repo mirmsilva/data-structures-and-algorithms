@@ -56,6 +56,8 @@ Code Challenge 30: [Hash-Table](./dotnet/README.md)
 
 Code Challenge 31: [Repeated-Word](./dotnet/README.md)
 
+Code Challenge 33: [Left-Join](./dotnet/README.md)
+
 ## Made with help from:
 - Joel Connell
 - Q

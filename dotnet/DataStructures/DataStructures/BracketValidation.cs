@@ -37,7 +37,7 @@ namespace DataStructures
           {
             return false;
           }
-          else if (!DoMatch(st.Pop(), exp[i]))
+          //else if (!DoMatch(st.Pop(), exp[i]))
           {
             return false;
           }
