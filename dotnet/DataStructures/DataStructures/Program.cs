@@ -30,6 +30,9 @@ namespace DataStructures
       graph.AddEdge(dNode, eNode, 8);
       graph.AddEdge(aNode, eNode, 3);
 
+      graph.GetNodes();
+
+      Console.WriteLine("Graph Challenge");
       graph.Print();
     }
     static void HashTableFun()

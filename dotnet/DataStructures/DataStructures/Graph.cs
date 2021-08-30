@@ -63,10 +63,23 @@ namespace DataStructures
       );
     }
 
-    /*public GetNodes()
+    public List<Vertex<T>> GetNodes()
     {
-      //TODO: Implement me
-    }*/
+      int vList = 1;
+      List<Vertex<T>> vertices = new();
+
+      foreach (Vertex<T> vertex in AdjacencyLists.Keys)
+      {
+        Console.Write($"Vertex {vList}: Value {vertex.Value} => ");
+        vertices.Add(vertex);
+        vList++;
+      }
+      if (vertices.Count <= 0)
+      {
+        return null;
+      }
+      return vertices;
+    }
 
     public List<Vertex<T>> GetNeighbors(Vertex<T> vertex)
     {
