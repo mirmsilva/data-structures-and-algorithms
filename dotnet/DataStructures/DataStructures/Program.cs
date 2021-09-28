@@ -7,92 +7,91 @@ namespace DataStructures
     static void Main(string[] args)
     {
       Console.WriteLine("Hello World!");
-        // StackIterative();
-        // StackRecursive();
-        // QueueIterative();
-        // QueueRecursive();
-        HashTableFun();
-        GraphCoolness();
+      // StackIterative();
+      // StackRecursive();
+      // QueueIterative();
+      // QueueRecursive();
+      //HashTableFun();
+      //GraphCoolness();
+      LinkedListTest();
+   
     }
-    static void GraphCoolness()
-    {
-      Graph<string> graph = new Graph<string>();
+    //static void GraphCoolness()
+    //{
+    //  Graph<string> graph = new Graph<string>();
 
-      var aNode = graph.AddNode("A");
-      var bNode = graph.AddNode("B");
-      var cNode = graph.AddNode("C");
-      var dNode = graph.AddNode("D");
-      var eNode = graph.AddNode("E");
+    //  var aNode = graph.AddNode("A");
+    //  var bNode = graph.AddNode("B");
+    //  var cNode = graph.AddNode("C");
+    //  var dNode = graph.AddNode("D");
+    //  var eNode = graph.AddNode("E");
 
-      graph.AddEdge(aNode, bNode, 2);
-      graph.AddEdge(aNode, cNode, 4);
-      graph.AddEdge(bNode, cNode, 5);
-      graph.AddEdge(dNode, eNode, 8);
-      graph.AddEdge(aNode, eNode, 3);
+    //  graph.AddEdge(aNode, bNode, 2);
+    //  graph.AddEdge(aNode, cNode, 4);
+    //  graph.AddEdge(bNode, cNode, 5);
+    //  graph.AddEdge(dNode, eNode, 8);
+    //  graph.AddEdge(aNode, eNode, 3);
 
-      graph.GetNodes();
+    //  Console.WriteLine("--------Graph Challenge--------");
+    //  graph.GetNodes();
 
-      Console.WriteLine("Graph Challenge");
-      graph.Print();
-    }
+    //  graph.Print();
+    //}
     static void HashTableFun()
     {
         HashMap people = new HashMap(48);
-        people.Set("John", "Husband");
-        people.Set("Cathy", "Boss");
-        people.Set("Allie", "Volleyballer");
-        people.Set("Zach", "College Grad");
-        people.Set("Rosie", "Dog");
-        people.Set("Char", "Sister-In-Law");
-        people.Set("Joe", "Brother");
-        people.Set("Danny", "Sister");
+        people.Set("C", "N");
+        people.Set("A", "C");
+        people.Set("W", "Z");
+        people.Set("N", "S");
+        people.Set("S", "W");
+
+        Console.WriteLine("-------Hash Table-------");
 
         people.Print();
 
-        Console.WriteLine($"Has Zach? {people.Contains("Zach")}");
-        Console.WriteLine($"Has Fred? {people.Contains("Fred")}");
-        Console.WriteLine($"Char? {people.Get("Char")}");
+
+
 
     }
 
-      //CHALLENGE 26
-      //int[] arr = { 2, 6, 8, 7, 1 };
-      //int[] sorted = InsertionSort.InsertionSortArray(arr);
-      //for (int i = 0; i < arr.Length; i++)
-      //{
+    //CHALLENGE 26
+    //int[] arr = { 2, 6, 8, 7, 1 };
+    //int[] sorted = InsertionSort.InsertionSortArray(arr);
+    //for (int i = 0; i < arr.Length; i++)
+    //{
 
-      //  Console.WriteLine(sorted[i]);
-      //}
+    //  Console.WriteLine(sorted[i]);
+    //}
 
-      ////CHALLENGE 18: K-ARY TREE
-      //KaryTree<int> IntTree = new KaryTree<int>(10);
+    ////CHALLENGE 18: K-ARY TREE
+    //KaryTree<int> IntTree = new KaryTree<int>(10);
 
-      //IntTree.Root.Value = 10;
-      //IntTree.Root.Children.Add(new Node<int>(10));
-      //IntTree.Root.Children.Add(new Node<int>(3));
-      //IntTree.Root.Children.Add(new Node<int>(15));
+    //IntTree.Root.Value = 10;
+    //IntTree.Root.Children.Add(new Node<int>(10));
+    //IntTree.Root.Children.Add(new Node<int>(3));
+    //IntTree.Root.Children.Add(new Node<int>(15));
 
-      //KaryTree<string> StringTree = IntTree.FizzBuzz(IntTree);
+    //KaryTree<string> StringTree = IntTree.FizzBuzz(IntTree);
 
-      //foreach (Node<string> val in StringTree.Root.Children)
-      //{
-      //  Console.WriteLine($"{val.Value} ");
-      //}
+    //foreach (Node<string> val in StringTree.Root.Children)
+    //{
+    //  Console.WriteLine($"{val.Value} ");
+    //}
 
-      //LINKED LISTS
-      //LinkedList OurList = new LinkedList { };
-      //OurList.Insert(2);
-      //OurList.Append(7);
-      //OurList.Append(9);
-      //OurList.Append(3);
-      //OurList.Append(4);
-      //OurList.InsertBefore(9, 1);
-      //OurList.InsertAfter(7, 5);
-      //OurList.Print();
+    //LINKED LISTS
+    static void LinkedListTest()
+    {
+      LinkedList<string> test = new LinkedList<string>();
+      test.Insert("A");
+      test.Append("B");
+      test.Insert("C");
+      test.Print();
+    }
 
 
-      //BINARY TREES
-  }   
+    //BINARY TREES
+  }
 }
 
 

@@ -1,4 +1,6 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace Challenge05
 {
@@ -6,10 +8,7 @@ namespace Challenge05
   {
     static void Main(string[] args)
     {
-      LinkedList OurList = new LinkedList { };
-      OurList.Insert(2);
-      OurList.Insert(7);
-      OurList.Print();
+
     }
   }
 }

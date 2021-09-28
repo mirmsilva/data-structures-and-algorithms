@@ -12,7 +12,7 @@ namespace DataStructures
     public Node<T> Back { get; set; }
 
 
-    //adding to the top of the Queue
+    //adding to the back of the Queue
     public void Enqueue(T value)
     {
       Node<T> node = new Node<T>(value);
@@ -28,7 +28,7 @@ namespace DataStructures
       }
     }
 
-    //removing from the top of the Queue
+    //removing from the front of the Queue
     public Node<T> Dequeue()
     {
       Node<T> currentFront = Front;
