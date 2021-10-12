@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LLists
+namespace LinkedLists
 {
   class LinkedList
   {
@@ -41,6 +41,24 @@ namespace LLists
         current = current.Next;
       }
       current.Next = node;
+    }
+
+    //INCLUDES
+    public bool Includes(int num)
+    {
+      Node current = Head;
+      while (current.Next != null)
+      {
+        if (num == current.Value)
+        {
+          Console.WriteLine($" Does include {num}");
+          return true;
+          
+        }
+        current = current.Next;
+      }
+      Console.WriteLine($"Does not include {num}");
+      return false;
     }
 
     //PRINT

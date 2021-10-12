@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kyleketcham\\source\\repos\\mirmsilva\\mirmsilva\\data-structures-and-algorithms\\dotnet\\LLists\\LLists.csproj",
-      "projectName": "LLists",
-      "projectPath": "C:\\Users\\kyleketcham\\source\\repos\\mirmsilva\\mirmsilva\\data-structures-and-algorithms\\dotnet\\LLists\\LLists.csproj",
+      "projectUniqueName": "C:\\Users\\kyleketcham\\source\\repos\\mirmsilva\\mirmsilva\\data-structures-and-algorithms\\dotnet\\LLists\\LinkedLists.csproj",
+      "projectName": "LinkedLists",
+      "projectPath": "C:\\Users\\kyleketcham\\source\\repos\\mirmsilva\\mirmsilva\\data-structures-and-algorithms\\dotnet\\LLists\\LinkedLists.csproj",
       "packagesPath": "C:\\Users\\kyleketcham\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\kyleketcham\\source\\repos\\mirmsilva\\mirmsilva\\data-structures-and-algorithms\\dotnet\\LLists\\obj\\",
       "projectStyle": "PackageReference",

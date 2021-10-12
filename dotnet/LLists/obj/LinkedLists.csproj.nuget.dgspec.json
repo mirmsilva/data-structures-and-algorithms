@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kyleketcham\\source\\repos\\mirmsilva\\mirmsilva\\data-structures-and-algorithms\\dotnet\\Challenge05\\Challenge05\\Challenge05\\Challenge05.csproj": {}
+    "C:\\Users\\kyleketcham\\source\\repos\\mirmsilva\\mirmsilva\\data-structures-and-algorithms\\dotnet\\LLists\\LinkedLists.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kyleketcham\\source\\repos\\mirmsilva\\mirmsilva\\data-structures-and-algorithms\\dotnet\\Challenge05\\Challenge05\\Challenge05\\Challenge05.csproj": {
+    "C:\\Users\\kyleketcham\\source\\repos\\mirmsilva\\mirmsilva\\data-structures-and-algorithms\\dotnet\\LLists\\LinkedLists.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kyleketcham\\source\\repos\\mirmsilva\\mirmsilva\\data-structures-and-algorithms\\dotnet\\Challenge05\\Challenge05\\Challenge05\\Challenge05.csproj",
-        "projectName": "Challenge05",
-        "projectPath": "C:\\Users\\kyleketcham\\source\\repos\\mirmsilva\\mirmsilva\\data-structures-and-algorithms\\dotnet\\Challenge05\\Challenge05\\Challenge05\\Challenge05.csproj",
+        "projectUniqueName": "C:\\Users\\kyleketcham\\source\\repos\\mirmsilva\\mirmsilva\\data-structures-and-algorithms\\dotnet\\LLists\\LinkedLists.csproj",
+        "projectName": "LinkedLists",
+        "projectPath": "C:\\Users\\kyleketcham\\source\\repos\\mirmsilva\\mirmsilva\\data-structures-and-algorithms\\dotnet\\LLists\\LinkedLists.csproj",
         "packagesPath": "C:\\Users\\kyleketcham\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kyleketcham\\source\\repos\\mirmsilva\\mirmsilva\\data-structures-and-algorithms\\dotnet\\Challenge05\\Challenge05\\Challenge05\\obj\\",
+        "outputPath": "C:\\Users\\kyleketcham\\source\\repos\\mirmsilva\\mirmsilva\\data-structures-and-algorithms\\dotnet\\LLists\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,12 +42,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "System.Collections": {
-              "target": "Package",
-              "version": "[4.3.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
