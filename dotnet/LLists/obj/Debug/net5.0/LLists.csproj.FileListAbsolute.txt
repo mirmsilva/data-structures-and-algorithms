@@ -1,0 +1,16 @@
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\LLists\bin\Debug\net5.0\LLists.exe
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\LLists\bin\Debug\net5.0\LLists.deps.json
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\LLists\bin\Debug\net5.0\LLists.runtimeconfig.json
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\LLists\bin\Debug\net5.0\LLists.runtimeconfig.dev.json
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\LLists\bin\Debug\net5.0\LLists.dll
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\LLists\bin\Debug\net5.0\ref\LLists.dll
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\LLists\bin\Debug\net5.0\LLists.pdb
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\LLists\obj\Debug\net5.0\LLists.csproj.AssemblyReference.cache
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\LLists\obj\Debug\net5.0\LLists.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\LLists\obj\Debug\net5.0\LLists.AssemblyInfoInputs.cache
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\LLists\obj\Debug\net5.0\LLists.AssemblyInfo.cs
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\LLists\obj\Debug\net5.0\LLists.csproj.CoreCompileInputs.cache
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\LLists\obj\Debug\net5.0\LLists.dll
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\LLists\obj\Debug\net5.0\ref\LLists.dll
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\LLists\obj\Debug\net5.0\LLists.pdb
+C:\Users\kyleketcham\source\repos\mirmsilva\mirmsilva\data-structures-and-algorithms\dotnet\LLists\obj\Debug\net5.0\LLists.genruntimeconfig.cache
