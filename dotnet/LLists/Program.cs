@@ -8,12 +8,18 @@ namespace LinkedLists
     {
       Console.WriteLine("-----LINKED LISTS-----");
       LinkedList list = new LinkedList();
-      list.Insert(23);
+      list.Insert(28);
       list.Append(15);
-      list.Append(31);
+      list.Append(27);
+      list.Append(41);
       list.Append(13);
+      list.InsertBefore(13, 5);
+      list.InsertAfter(15, 16);
       list.Print();
       list.Includes(16);
+
+     
+
     }
   }
 }

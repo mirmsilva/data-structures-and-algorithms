@@ -51,7 +51,7 @@ namespace LinkedLists
       {
         if (num == current.Value)
         {
-          Console.WriteLine($" Does include {num}");
+          Console.WriteLine($"Does include {num}");
           return true;
           
         }
@@ -59,6 +59,44 @@ namespace LinkedLists
       }
       Console.WriteLine($"Does not include {num}");
       return false;
+    }
+
+    //INSERT BEFORE VALUE
+    public void InsertBefore(int value, int newValue)
+    {
+      Node node = new Node(newValue);
+      Node current = Head;
+      Node tempNode = current;
+      while(current.Next != null )
+      {
+        if (current.Next.Value == value)
+        {
+          tempNode = current.Next;
+          current.Next = node;
+          node.Next = tempNode;
+          break;
+        }
+        current = current.Next;
+      }
+    }
+
+    //INSERT AFTER
+    public void InsertAfter(int value, int newValue)
+    {
+      Node newNode = new Node(newValue);
+      Node current = Head;
+      Node tempNode = current;
+      while(current != null)
+      {
+        if(current.Value == value)
+        {
+          tempNode = current.Next;
+          current.Next = newNode;
+          newNode.Next = tempNode;
+          break;
+        }
+        current = current.Next;
+      }
     }
 
     //PRINT
