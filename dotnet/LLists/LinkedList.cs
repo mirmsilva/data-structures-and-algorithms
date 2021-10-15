@@ -44,6 +44,7 @@ namespace LinkedLists
     }
 
     //INCLUDES
+    //WHAT IT DOES: Returns t/f is the value passed in is included in the linked list
     public bool Includes(int num)
     {
       Node current = Head;
@@ -51,7 +52,7 @@ namespace LinkedLists
       {
         if (num == current.Value)
         {
-          Console.WriteLine($"Does include {num}");
+          Console.WriteLine($" Does include {num}");
           return true;
           
         }
@@ -60,14 +61,13 @@ namespace LinkedLists
       Console.WriteLine($"Does not include {num}");
       return false;
     }
-
     //INSERT BEFORE VALUE
     public void InsertBefore(int value, int newValue)
     {
       Node node = new Node(newValue);
       Node current = Head;
       Node tempNode = current;
-      while(current.Next != null )
+      while (current.Next != null)
       {
         if (current.Next.Value == value)
         {
@@ -86,9 +86,9 @@ namespace LinkedLists
       Node newNode = new Node(newValue);
       Node current = Head;
       Node tempNode = current;
-      while(current != null)
+      while (current != null)
       {
-        if(current.Value == value)
+        if (current.Value == value)
         {
           tempNode = current.Next;
           current.Next = newNode;
