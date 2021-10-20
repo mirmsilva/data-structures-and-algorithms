@@ -111,7 +111,21 @@ namespace LinkedLists
       Console.WriteLine("NULL");
     }
 
-    
+    //REVERSE
+    public void Reverse()
+    {
+      Node prev = null;
+      Node current = Head;
+      Node next = null;
+      while(current != null)
+      {
+        next = current.Next;
+        current.Next = prev;
+        prev = current;
+        current = next;
+      }
+      Head = prev;
+    }
 
   }
 }

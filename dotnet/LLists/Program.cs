@@ -26,6 +26,10 @@ namespace LinkedLists
       list2.Append(47);
       list2.Print();
 
+      Console.WriteLine("-----List 2 Reversed-----");
+      list2.Reverse();
+      list2.Print();
+
 
 
     }
