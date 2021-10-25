@@ -30,8 +30,15 @@ namespace LinkedLists
       list2.Reverse();
       list2.Print();
 
+      //FIND LENGTH OF LINKED LIST
+      list2.ListLength();
+
+      //FIND THE VALUE OF NODE AT POSITION Nth
+      list2.GetNth(1);
 
 
+      
     }
+   
   }
 }

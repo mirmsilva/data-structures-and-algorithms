@@ -127,5 +127,41 @@ namespace LinkedLists
       Head = prev;
     }
 
+    //COUNT
+    //start count @ 0
+    //start a while loop
+    //add to count 
+    public int ListLength()
+    {
+      int count = 0;
+      Node current = Head;
+      while (current != null)
+      {
+        current = current.Next;
+        count++;
+      }
+      Console.WriteLine($"There are {count} nodes in this linked list");
+      return count;
+
+    }
+
+    //Value at position n
+    public int GetNth(int n)
+    {
+      int count = 0;
+      Node current = Head;
+      while (current != null)
+      {
+        if(count == n)
+        {
+          Console.WriteLine($"The value at postion {n} is {current.Value}");
+          return current.Value;
+        }
+        current = current.Next;
+        count++;
+      }
+      Console.WriteLine("that position is not valid");
+      return 0;
+    }
   }
 }
